@@ -1,0 +1,49 @@
+#brand {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .brand_section {
+    background-color: $theme-color-primary;
+    padding: 52px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+
+    p {
+      text-align: center;
+      font-weight: 700;
+      line-height: 3.863;
+      margin-bottom: 30px;
+      color: $theme-color-white;
+      font-size: 22px;
+      span {
+        font-weight: 900;
+        line-height: 2.428;
+        font-size: 35px;
+      }
+      @media (max-width: 575.98px) {
+        font-weight: 400;
+        line-height: 2;
+        color: $theme-color-white;
+        font-size: 18px;
+        span {
+          font-weight: 600;
+          line-height: 2;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .img-list {
+      margin-left: 25px;
+      margin-right: 25px;
+      @media (max-width: 575.98px) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    li {
+      list-style: none;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+section {
+  margin: 0;
+  padding-bottom: 0px;
+}
+.header_contant {
+  color: $theme-color-white;
+  span {
+    color: $theme-color-white;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 58px;
+    text-transform: initial;
+  }
+  .head-title {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .head-text {
+    font-size: 16px;
+  }
+  .header-form-group {
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: 150px;
+    .form-group {
+      .form-control {
+        border-radius: 5px;
+        border: none;
+        padding: 15px 30px 15px 15px;
+        background-color: $theme-color-white;
+      }
+      .submit-btn {
+        margin-left: 20px;
+        border-radius: 5px;
+        background: radial-gradient(#69d7f3 2%, #3bb6d5 70%);
+        padding: 15px 15px;
+        font-weight: 600;
+        color: $theme-color-white;
+        transition: all 0.3s ease-in-out;
+        border: 1px solid $theme-color-secondary;
+
+        @media (max-width: 575.98px) {
+          padding: 3px 15px;
+        }
+      }
+    }
+  }
+  @media (max-width: 1399.99px) {
+    span{
+      font-size: 48px;
+      line-height: 50px;
+    }
+  }
+  @media (max-width: 1199.99px) {
+    span{
+      font-size: 40px;
+      line-height: 42px;
+    }
+  }
+}
+
+.image-div {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../image/slider/laptop.png);
+  padding: 31px 64px 64px 64px;
+  @media (max-width: 785.98px) {
+    padding: 33px 54px 55px 57px;
+  }
+
+  @media (max-width: 575.98px) {
+    padding: 64px 27px 78px 29px;
+  }
+}

@@ -1,0 +1,60 @@
+/********************* [ GLOBLE STYLE ] **************************/
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  display: inline-block;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto 50px;
+  max-width: 620px;
+  position: relative;
+  z-index: 1;
+
+  .header {
+    font-size: 34px;
+
+    color: $theme-color-secondary;
+    @media (max-width: 767px) {
+      .section-header {
+        .header {
+          margin-bottom: 25px;
+        }
+
+        h5 {
+          font-size: 24px;
+          line-height: 28px;
+          margin-top: -9px;
+        }
+      }
+    }
+  }
+
+  .title {
+    font-size: 36px;
+    margin-bottom: 18px;
+    font-weight: 700;
+    color: $theme-color-primary;
+    &:last-child {
+      margin-bottom: -19px;
+    }
+    @media (min-width: 768px) {
+      .section-header .title {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

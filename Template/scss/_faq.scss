@@ -1,0 +1,43 @@
+#faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .accordion-header {
+    h1 {
+      font-size: 28px;
+      padding-bottom: 30px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+  }
+
+  .faq_class {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      top: 10%;
+      left: 0;
+      width: 50%;
+      height: 377px;
+      background-image: url("../image/banner/banner.png");
+      border-radius: 0px 350px 350px 0px;
+      z-index: -1;
+      @media (max-width: 575.98px) {
+        .faq_class {
+          &::before {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .img-div {
+      .img_moving {
+        img {
+          height: 500px;
+          width: 500px;
+        }
+      }
+    }
+  }
+}

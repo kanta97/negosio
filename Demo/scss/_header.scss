@@ -34,12 +34,13 @@ section {
       .submit-btn {
         margin-left: 20px;
         border-radius: 5px;
-        background: radial-gradient(#69d7f3 2%, #3bb6d5 70%);
+        background: radial-gradient(#e91f27 2%,  #770715 70%);
+
         padding: 15px 15px;
         font-weight: 600;
         color: $theme-color-white;
         transition: all 0.3s ease-in-out;
-        border: 1px solid $theme-color-secondary;
+        border: 1px solid #e91f27;
 
         @media (max-width: 575.98px) {
           padding: 3px 15px;
@@ -65,6 +66,7 @@ section {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
   background-image: url(../image/slider/laptop.png);
   padding: 31px 64px 64px 64px;
   @media (max-width: 785.98px) {
@@ -73,5 +75,30 @@ section {
 
   @media (max-width: 575.98px) {
     padding: 64px 27px 78px 29px;
+  }
+  .carosel_img{
+    position: relative;
+  }
+  .carosel_caption{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    h5{
+      font-size: 2.5em;
+      margin-bottom: 0.4em;
+      text-transform: uppercase;
+      color: #fff;
+      text-shadow: 1px 1px 4px #000;
+      letter-spacing: 6px;
+      font-weight: 600;
+    }
+    p{
+      font-size: 1.1em;
+      color: #fff;
+   padding: 0 60px 0 0;
+   margin-bottom: 0;
+    }
+
   }
 }

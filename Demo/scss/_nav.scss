@@ -1,11 +1,12 @@
 .nav_bar {
   .nav_button {
     color: $theme-color-white;
-    background: radial-gradient(#69d7f3 2%, #3bb6d5 70%);
-    border: $theme-color-primary;
+    background: radial-gradient(#e91f27 2%,  #770715 70%);
+    border: #e91f27;
+    padding: 20px 30px;
   }
   a {
-    color: $theme-color-white;
+    color: #212529;
     font-size: 18px;
     &:hover {
       color: $theme-color-secondary;
@@ -33,14 +34,14 @@
     z-index: 10000;
   }
   &.sps--abv {
-    padding-top: 20px;
-    background-color: transparent;
+    // padding-top: 20px;
+    background-color: #fff;
   }
   &.sps--blw {
     background: $theme-color-white;
 
-    padding-top: 20px;
-    padding-bottom: 15px;
+    // padding-top: 20px;
+    // padding-bottom: 15px;
 
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     a {

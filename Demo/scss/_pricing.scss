@@ -1,6 +1,6 @@
 #Pricing {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   .pricing_cont {
     .pricing_ul {
@@ -11,7 +11,7 @@
 
         &.active {
           color: $theme-color-white;
-          background: radial-gradient(#69d7f3 2%, #3bb6d5 70%);
+          background: radial-gradient(#e91f27 2%,  #770715 70%);
         }
       }
     }

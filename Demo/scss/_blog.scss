@@ -1,6 +1,6 @@
 #blog {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   .single-item {
     &:hover{
       .thumb {
@@ -51,6 +51,10 @@
 
     .thumb {
       position: relative;
+      img{
+        height: 261px;
+        width: 100%;
+      }
 
       &::after {
         position: absolute;
@@ -66,23 +70,23 @@
 
       .date {
         position: absolute;
-        left: 30px;
-        bottom: -25px;
-        z-index: 1;
-
-        background: $theme-color-primary;
-        padding: 5px 17px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;
-        height: 50px;
-        line-height: 40px;
+    left: -1px;
+    bottom: -39px;
+    z-index: 1;
+    background: #212529;
+    padding: 22px 56px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 0px 30px;
+    /* height: 50px; */
+    line-height: 58px;
         h6 {
           margin: 0;
           text-transform: uppercase;
           font-weight: 300;
           line-height: 40px;
           color: $theme-color-white;
+          font-size: 24px;
         }
       }
       &:hover {

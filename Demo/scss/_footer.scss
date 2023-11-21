@@ -16,7 +16,7 @@ a {
 
       .thumb {
         &.active {
-          background: radial-gradient(#69d7f3 2%, #3bb6d5 70%);
+          background: radial-gradient(#e91f27 2%,  #770715 70%);
         }
         width: 94px;
         height: 94px;
@@ -67,7 +67,7 @@ a {
         color: $theme-color-white;
         border-color: transparent;
 
-        background: radial-gradient(#69d7f3 2%, #3bb6d5 70%);
+        background: radial-gradient(#e91f27 2%,  #770715 70%);
       }
     }
   }
@@ -121,18 +121,18 @@ a {
         padding: 7.5px;
         a {
           width: 36px;
-          height: 36px;
-          line-height: 36px;
-          text-align: center;
-          font-size: 16px;
-          border: 1px solid $theme-color-secondary;
-          border-radius: 50%;
-          color: $theme-color-white;
-          text-decoration: none;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #e91f27;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
           &:hover {
-            background: $theme-color-secondary;
-            border-color: $theme-color-secondary;
-            transition: all 0.3s ease-in-out;
+            background: #e91f27;
+  border-color: #e91f27;
+  transition: all 0.3s ease-in-out;
           }
         }
       }

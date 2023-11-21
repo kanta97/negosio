@@ -1,10 +1,20 @@
 .contact {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   .left_image {
     img {
       height: 300px;
       width: 450px;
+    }
+  }
+  .company_icons{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 46px;
+    i{
+      color: #e91f27;
+      font-size: 28px;
+      margin-right: 1rem;
     }
   }
 
@@ -14,7 +24,7 @@
     }
     .nav_button1 {
       color: $theme-color-white;
-      background: radial-gradient(#69d7f3 2%, #3bb6d5 70%);
+      background: radial-gradient(#e91f27 2%,  #770715 70%);
       border: 1px solid;
     }
   }

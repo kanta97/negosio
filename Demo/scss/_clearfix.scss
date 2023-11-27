@@ -37,8 +37,12 @@
           margin: 0px;
           text-align: center;
           border-radius: 50%;
-          background-color: $theme-color-white;
+          background-image: url(../image/img.jpeg);
+          position: relative;
+          background-repeat: no-repeat;
+          background-size: cover;
           i {
+            display: none;
             padding: 0;
             margin: 0px;
             line-height: 96px;

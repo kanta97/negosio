@@ -753,9 +753,13 @@ section {
   margin: 0px;
   text-align: center;
   border-radius: 50%;
-  background-color: #fff;
+  background-image: url(../image/img.jpeg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #banner .section_clearfix .one_fourth .icon_circle .circle_inner i {
+  display: none;
   padding: 0;
   margin: 0px;
   line-height: 96px;
@@ -863,11 +867,11 @@ section {
 }
 #blog .single-item .thumb .date {
   position: absolute;
-  left: -1px;
+  left: 0;
   bottom: -39px;
   z-index: 1;
   background: #212529;
-  padding: 22px 56px;
+  padding: 22px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 0px 30px;
@@ -876,11 +880,17 @@ section {
 }
 #blog .single-item .thumb .date h6 {
   margin: 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 300;
-  line-height: 40px;
+  line-height: 27px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
+  text-align: left;
+  height: 55px;
+  width: 265px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 #blog .single-item .thumb:hover {
   top: 0;
